@@ -1,0 +1,17 @@
+{
+  "name": "FokusUp",
+  "description": "Chrome Extension To Boost productivity",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "icons": {
+    "128": "icon.jpg",
+    "16": "icon.jpg",
+    "48": "icon.jpg"
+  },
+  "action": {
+    "default_title": "FokusUp"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
